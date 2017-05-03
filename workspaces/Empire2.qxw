@@ -9,117 +9,117 @@
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 3" ID="2">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 4" ID="3">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 5" ID="4">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 6" ID="5">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 7" ID="6">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 8" ID="7">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 9" ID="8">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 10" ID="9">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 11" ID="10">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 12" ID="11">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 13" ID="12">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 14" ID="13">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 15" ID="14">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 16" ID="15">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 17" ID="16">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 18" ID="17">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 19" ID="18">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 20" ID="19">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 21" ID="20">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 22" ID="21">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
    <Universe Name="Universe 23" ID="22">
-    <Output Plugin="ArtNet" Line="1">
+    <Output Plugin="ArtNet" Line="0">
      <PluginParameters transmitMode="Partial"/>
     </Output>
    </Universe>
