@@ -5643,24 +5643,24 @@
   <ChannelsGroup ID="67" Name="NeoPuck 8 Inner Green Channel Group" Value="0">22,199,22,202,22,205,22,208,22,211,22,214,22,217,22,220,22,223,22,226,22,229,22,232</ChannelsGroup>
   <ChannelsGroup ID="68" Name="NeoPuck 8 Inner Blue Channel Group" Value="0">22,200,22,203,22,206,22,209,22,212,22,215,22,218,22,221,22,224,22,227,22,230,22,233</ChannelsGroup>
   <Function ID="0" Type="RGBMatrix" Name="Full Nozzle Matrix">
-   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="40"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Plasma</Algorithm>
+   <Algorithm Type="Script">NozzleSpin</Algorithm>
    <DimmerControl>1</DimmerControl>
-   <MonoColor>4278190335</MonoColor>
+   <MonoColor>4294901760</MonoColor>
    <EndColor>4294901760</EndColor>
    <FixtureGroup>0</FixtureGroup>
    <Property Name="color2Index" Value="Red"/>
+   <Property Name="presetSize" Value="5"/>
+   <Property Name="rotation" Value=""/>
+   <Property Name="color5Index" Value="OFF"/>
    <Property Name="presetIndex" Value="Fire"/>
-   <Property Name="color3Index" Value="Green"/>
    <Property Name="ramp" Value="15"/>
    <Property Name="color1Index" Value="OFF"/>
-   <Property Name="rotation" Value=""/>
    <Property Name="color4Index" Value="Blue"/>
-   <Property Name="color5Index" Value="OFF"/>
-   <Property Name="presetSize" Value="5"/>
    <Property Name="stepsize" Value="50"/>
+   <Property Name="color3Index" Value="Green"/>
    <Property Name="orientation" Value="Vertical"/>
   </Function>
   <Function ID="1" Type="RGBMatrix" Name="Nozzle Ring 1 Matrix">
@@ -5671,15 +5671,15 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294901760</MonoColor>
    <FixtureGroup>1</FixtureGroup>
-   <Property Name="presetIndex" Value=""/>
    <Property Name="color2Index" Value="Red"/>
-   <Property Name="color3Index" Value="Green"/>
+   <Property Name="presetSize" Value="5"/>
+   <Property Name="color5Index" Value="OFF"/>
+   <Property Name="presetIndex" Value=""/>
    <Property Name="ramp" Value="15"/>
    <Property Name="color1Index" Value=""/>
    <Property Name="color4Index" Value="Blue"/>
-   <Property Name="color5Index" Value="OFF"/>
-   <Property Name="presetSize" Value="5"/>
    <Property Name="stepsize" Value="25"/>
+   <Property Name="color3Index" Value="Green"/>
    <Property Name="orientation" Value=""/>
   </Function>
   <Function ID="2" Type="RGBMatrix" Name="Nozzle Ring 2 Matrix">
@@ -5723,21 +5723,21 @@
    <Property Name="orientation" Value=""/>
   </Function>
   <Function ID="6" Type="RGBMatrix" Name="Full NeoPuck Matrix">
-   <Speed FadeIn="0" FadeOut="0" Duration="500"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="40"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <Algorithm Type="Script">Plasma</Algorithm>
+   <Algorithm Type="Script">NeoSpin</Algorithm>
    <DimmerControl>1</DimmerControl>
    <MonoColor>4294901760</MonoColor>
    <FixtureGroup>6</FixtureGroup>
+   <Property Name="presetRandom" Value=""/>
+   <Property Name="presetNumber" Value="5"/>
+   <Property Name="presetCollision" Value=""/>
+   <Property Name="presetSize" Value="5"/>
+   <Property Name="rotation" Value="CW"/>
    <Property Name="presetIndex" Value="Fire"/>
    <Property Name="ramp" Value="20"/>
-   <Property Name="rotation" Value="CW"/>
-   <Property Name="presetRandom" Value=""/>
-   <Property Name="presetSize" Value="5"/>
-   <Property Name="presetNumber" Value="5"/>
    <Property Name="stepsize" Value="50"/>
-   <Property Name="presetCollision" Value=""/>
    <Property Name="orientation" Value="Horizontal"/>
   </Function>
   <Function ID="7" Type="Scene" Name="Full Smoke">
@@ -5752,9 +5752,9 @@
    <DimmerControl>1</DimmerControl>
    <MonoColor>4280361249</MonoColor>
    <FixtureGroup>7</FixtureGroup>
+   <Property Name="tailfade" Value="Yes"/>
    <Property Name="direction" Value=""/>
    <Property Name="taillength" Value="50"/>
-   <Property Name="tailfade" Value="Yes"/>
    <Property Name="orientation" Value="Horizontal"/>
   </Function>
   <Function ID="9" Type="Scene" Name="Full Flood">
